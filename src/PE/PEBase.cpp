@@ -102,9 +102,6 @@ namespace pe32 {
 	}
 
 	bool PEFile::create(const size_t fileSize) {
-		// I think this is not necessary anymore.
-		// This can be removed someday.
-
 		if (!fileSize) {
 			throw Exception("PEFile::create", "fileSize is zero");
 		}

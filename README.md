@@ -15,5 +15,5 @@ dll-merger merges DLLs with one PE32 EXE and injects the loader code into the PE
 # Demonstration
 1. Execute ```merger.exe procexp.exe MyDLL.dll```
 2. ```procexp.exe_out.exe``` is created
-3. ```MyDLL.dll``` is loaded in the ```procexp.exe_out.exe``` when ```procexp.exe_out.exe``` is executed but it's invisible.
+3. ```MyDLL.dll``` is manually loaded in the ```procexp.exe_out.exe``` when ```procexp.exe_out.exe``` is executed but it's invisible.
 <img width="80%" src="https://user-images.githubusercontent.com/60180255/152683217-81a0c00f-8a66-4659-81c4-91ba8ec4817a.PNG"/>

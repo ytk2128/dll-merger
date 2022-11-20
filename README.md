@@ -1,5 +1,5 @@
 # 🔗 dll-merger
-Merging DLLs with a PE32 EXE without LoadLibrary.
+Merging DLLs with a PE32 EXE without LoadLibrary
 
 # Building the project
 * ```git clone https://github.com/ytk2128/dll-merger.git --recurse-submodules```
